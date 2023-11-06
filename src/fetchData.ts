@@ -1,3 +1,4 @@
+
 export default async function fetchData<T>(url: string): Promise<T> {
     try {
         const response = await fetch(url);
